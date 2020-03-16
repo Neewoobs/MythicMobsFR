@@ -10,4 +10,22 @@ frog_fur:
   - '&a A tunic who grant you a new'
   - 'ability when you take damages'
   Skills:
-  - leap{velocity=-10} @target ~onDamaged
+  - leap{velocity=-10} @self ~onDamaged
+
+magikarp_meat:
+  Id: 349:3
+  Display: '&2Magikarp Fish'
+  Lore:
+  - ''
+  - '&7Rarity :&r &f&lUncommon&r'
+  - ''
+  - '&a A delicious magikarp fish!'
+
+  - '&c&lEffects:&r'
+  - ''
+  - '&7&l-&r &lLuck&r Lv.4 &o[5 Sec]'
+  - '&7&l-&r &lSpeed&r Lv.4 &o[5 Sec]'
+  Skills:
+  - effect:particlering{particle=bubble;radius=20;points=32;amount=1;hS=1;vS=0} @self ~onConsume
+  - potion{type=LUCK;duration=200;level=4} @self ~onConsume
+  - potion{type=SPEED;duration=200;level=4} @self ~onConsume

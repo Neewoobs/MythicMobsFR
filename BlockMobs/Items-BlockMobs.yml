@@ -3,6 +3,11 @@ turtlehead:
   Data: 3
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJlNTQ4NDA4YWI3NWQ3ZGY4ZTZkNWQyNDQ2ZDkwYjZlYzYyYWE0ZjdmZWI3OTMwZDFlZTcxZWVmZGRmNjE4OSJ9fX0
+magikarphead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0ZDcyNTgxZmE0MGJhMjM3OTMyZTA1ZjlkOWQ0MDM0YjI2OGQwYjk4YTY3MmNkMWMxNzk5MDVhYzFkMmNiNyJ9fX0=
 beehead:
   Id: 397
   Data: 3
@@ -28,6 +33,11 @@ icehead:
   Data: 3
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4Y2FhYjRjOTQxNjM5NWI1OGU4Y2Y2ZjBjYjg2NDhmOWZhZGIxZDgwZDEyMTY2ZGNlNGEzZDI3MjVmYTUzIn19fQ==
+foresthead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRlZTUxNGIwMGNhN2UzMDlkYWQ0ZmQ4MzRjYWU2ZmY4ZTRlYmY1ZWY4ZGE3MzEyZGEzMjc3MTRmNjViYTg2ZiJ9fX0=
 beautiful_feather:
   Id: 288
   Display: '&7&oBeautiful Feather'
@@ -129,6 +139,27 @@ ice_potion:
   - '79Rarity :&r &9&lUncommon&r'
   - ''
   - '&e A bottle of concentred ice.'
+  - ''
+  - '&c&lEffects:&r'
+  - ''
+  - '&7&l-&r &lHeal&r Lv.1'
+  - '&7&l-&r &lWater Breathing&r Lv.4 &o[10 Min]'
+  - '&7&l-&r &lHeal Boost&r Lv.1 &o[10 Min]'
+forest_potion:
+  Id: potion
+  Display: '&c&lBottle of Nature'
+  Options:
+    HideFlags: true
+    Color: 51,205,52
+  PotionEffects:
+  - HEAL 600 1
+  - SPEED 11999 1
+  - HEAL_BOOST 11999 1
+  Lore:
+  - ''
+  - '79Rarity :&r &9&lUncommon&r'
+  - ''
+  - '&e A bottle of concentred nature.'
   - ''
   - '&c&lEffects:&r'
   - ''

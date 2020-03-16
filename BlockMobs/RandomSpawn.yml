@@ -7,6 +7,15 @@ RandomTurtle:
   UseWorldScaling: false
   Conditions:
   - inblock STATIONARY_WATER
+RandomMagikarp:
+  Action: ADD
+  Type: magikarp
+  Level: 1
+  Chance: 0.2
+  Priority: 1
+  UseWorldScaling: false
+  Conditions:
+  - inblock STATIONARY_WATER
 RandomBee:
   Action: ADD
   Type: bee
@@ -34,3 +43,21 @@ RandomFrog:
   UseWorldScaling: false
   Conditions:
   - biome{b=Swampland} true
+Randomforest:
+  Action: ADD
+  Type: forest
+  Level: 1
+  Chance: 0.3
+  Priority: 1
+  UseWorldScaling: false
+  Conditions:
+  - biome{b=FOREST} true
+Randomice:
+  Action: ADD
+  Type: ice
+  Level: 1
+  Chance: 0.3
+  Priority: 1
+  UseWorldScaling: false
+  Conditions:
+  - biome{b=ICE_SPIKES} true

@@ -7,7 +7,6 @@ magma-Tick:
 magma-Hit:
   Skills:
   - damage{a=5}
-  - potion{type=SLOW;duration=100;lvl=1}
   - ignite{ticks=100}
 icearrow:
   Skills:
@@ -19,3 +18,13 @@ ice-Hit:
   Skills:
   - damage{a=5}
   - potion{type=SLOW;duration=100;lvl=3}
+forestarrow:
+  Skills:
+  - projectile{onTick=forest-Tick;onHit=forest-Hit;v=8;i=1;hR=1;vR=1}
+forest-Tick:
+  Skills:
+  - effect:particles{p=villager_happy;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+forest-Hit:
+  Skills:
+  - damage{a=5}
+  - potion{type=NAUSEA;duration=200;lvl=3}

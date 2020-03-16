@@ -7,6 +7,15 @@ turtleDead:
   - turtle_meat 1 0.25
   - 351:2 1 0.125
   - exp 2
+magikarpDead:
+  Conditions:
+  - playerwithin 20
+  Drops:
+  - 351 1 0.5
+  - 351 1 0.25
+  - magikarp_meat 1 0.25
+  - 351 1 0.125
+  - exp 3
 beeDead:
   Conditions:
   - playerwithin 20
@@ -43,7 +52,6 @@ magmaDead:
   - 378 1 0.25
   - 378 1 0.125
   - 213 1 0.25
-  - 383:62 1 0.05
   - magma_potion 1 0.15
   - exp 30
 iceDead:
@@ -54,6 +62,15 @@ iceDead:
   - 332 1 0.25
   - 332 1 0.125
   - 80 1 0.25
-  - 383:102 1 0.05
   - ice_potion 1 0.15
+  - exp 30
+forestDead:
+  Conditions:
+  - playerwithin 20
+  Drops:
+  - 6 1 0.5
+  - 6 1 0.25
+  - 6 1 0.125
+  - 2 1 0.25
+  - forest_potion 1 0.15
   - exp 30
